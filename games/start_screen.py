@@ -65,9 +65,9 @@ def clear_pixels(x1, y1, x2, y2):
 options = RGBMatrixOptions()
 options.rows = 32
 options.chain_length = 1
-options.parallel = 1
+options.parallel = 2
 options.scan_mode = 0
-options.hardware_mapping = 'adafruit-hat'  # If you have regular: 'regular' or an Adafruit HAT: 'adafruit-hat'
+options.hardware_mapping = 'regular'  # If you have regular: 'regular' or an Adafruit HAT: 'adafruit-hat'
 options.brightness = 100
 matrix = RGBMatrix(options = options)
 
